@@ -1,0 +1,101 @@
+\begin{thebibliography}{18}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Aoki {\it et~al\/}(2011)Aoki, Yamada, Kunida, Yasuda \&
+  Matsuda}]{Aoki2011}
+Aoki K, Yamada M, Kunida K, Yasuda S, Matsuda M (2011) {Processive
+  phosphorylation of ERK MAP kinase in mammalian cells.} {\it Proceedings of
+  the National Academy of Sciences of the United States of America\/} {\bf
+  108}: 12675--80
+
+\bibitem[{Bell and Engelberg(2003)Bell \& Engelberg}]{Bell2003}
+Bell M, Engelberg D (2003) {Phosphorylation of Tyr-176 of the yeast MAPK
+  Hog1/p38 is not vital for Hog1 biological activity}. {\it Journal of
+  Biological Chemistry\/} {\bf 278}: 14603--14606
+
+\bibitem[{Brewster {\it et~al\/}(1993)Brewster, de~Valoir, Dwyer, Winter \&
+  Gustin}]{Brewster1993}
+Brewster JL, de~Valoir T, Dwyer ND, Winter E, Gustin MC (1993) {An osmosensing
+  signal transduction pathway in yeast.} {\it Science New York NY\/} {\bf 259}:
+  1760--1763
+
+\bibitem[{English {\it et~al\/}(2015)English, Shellhammer, Malahe, Mccarter,
+  Elston \& Dohlman}]{English2015}
+English JG, Shellhammer JP, Malahe M, Mccarter PC, Elston TC, Dohlman HG (2015)
+  {MAPK feedback encodes a switch and timer for tunable stress adaptation in
+  yeast}. {\it Science signaling\/} {\bf 8}: 1--14
+
+\bibitem[{Lu {\it et~al\/}(2003)Lu, Deschenes \& Fassler}]{Lu2003}
+Lu JMy, Deschenes RJ, Fassler JS (2003) {Saccharomyces cerevisiae Histidine
+  Phosphotransferase Ypd1p Shuttles between the Nucleus and Cytoplasm for SLN1
+  -Dependent Phosphorylation of Ssk1p and Skn7p}. {\it Eukaryotic Cell\/} {\bf
+  2}: 1304--1314
+
+\bibitem[{Maeda {\it et~al\/}(1995)Maeda, Takekawa \& Saito}]{Maeda1995}
+Maeda T, Takekawa M, Saito H (1995) {Activation of yeast PBS2 MAPKK by MAPKKKs
+  or by binding of an SH3-containing osmosensor.} {\it Science New York NY\/}
+  {\bf 269}: 554--8
+
+\bibitem[{Maeda {\it et~al\/}(1994)Maeda, Wurgler-Murphy \& Saito}]{Maeda1994}
+Maeda T, Wurgler-Murphy S, Saito H (1994) {A two-component system that
+  regulates an osmosensing MAP kinase cascade in yeast}. {\it Nature\/} {\bf
+  369}: 242--245
+
+\bibitem[{O'Rourke and Herskowitz(1998)O'Rourke \& Herskowitz}]{Orourke1998}
+O'Rourke SM, Herskowitz I (1998) {The Hog1 MAPK prevents cross talk between the
+  HOG and pheromone response MAPK pathways in Saccharomyces cerevisiae}. {\it
+  Genes  Development\/} {\bf 12}: 2874--2886
+
+\bibitem[{O'Rourke and Herskowitz(2002)O'Rourke \& Herskowitz}]{Orourke2002}
+O'Rourke SM, Herskowitz I (2002) {A third osmosensing branch in Saccharomyces
+  cerevisiae requires the Msb2 protein and functions in parallel with the Sho1
+  branch.} {\it Molecular and cellular biology\/} {\bf 22}: 4739--49
+
+\bibitem[{Ota and Varshavsky(1993)Ota \& Varshavsky}]{Ota1993}
+Ota IM, Varshavsky A (1993) {A yeast protein similar to bacterial two-component
+  regulators.} {\it Science New York NY\/} {\bf 262}: 566--569
+
+\bibitem[{Posas(1997)}]{Posas1997}
+Posas F (1997) {Osmotic Activation of the HOG MAPK Pathway via Ste11p MAPKKK:
+  Scaffold Role of Pbs2p MAPKK}. {\it Science\/} {\bf 276}: 1702--1705
+
+\bibitem[{Posas and Saito(1998)Posas \& Saito}]{Posas1998}
+Posas F, Saito H (1998) {Activation of the yeast SSK2 MAP kinase kinase kinase
+  by the SSK1 two-component response regulator.} {\it The EMBO journal\/} {\bf
+  17}: 1385--94
+
+\bibitem[{Reiser {\it et~al\/}(2000)Reiser, Salah \& Ammerer}]{Reiser2000}
+Reiser V, Salah S, Ammerer G (2000) {Polarized localization of yeast Pbs2
+  depends on osmostress, the membrane protein Sho1 and Cdc42}. {\it Nature Cell
+  Biology\/} {\bf 2}: 620--7
+
+\bibitem[{Tatebayashi {\it et~al\/}(2003)Tatebayashi, Takekawa \&
+  Saito}]{Tatebayashi2003}
+Tatebayashi K, Takekawa M, Saito H (2003) {A docking site determining
+  specificity of Pbs2 MAPKK for Ssk2/Ssk22 MAPKKKs in the yeast HOG pathway}.
+  {\it The EMBO journal\/} {\bf 22}
+
+\bibitem[{Tatebayashi {\it et~al\/}(2007)Tatebayashi, Tanaka, Yang, Yamamoto,
+  Matsushita, Tomida, Imai \& Saito}]{Tatebayashi2007}
+Tatebayashi K, Tanaka K, Yang HY, Yamamoto K, Matsushita Y, Tomida T, Imai M,
+  Saito H (2007) {Transmembrane mucins Hkr1 and Msb2 are putative osmosensors
+  in the SHO1 branch of yeast HOG pathway.} {\it The EMBO journal\/} {\bf 26}:
+  3521--33
+
+\bibitem[{Tatebayashi {\it et~al\/}(2006)Tatebayashi, Yamamoto, Tanaka, Tomida,
+  Maruoka, Kasukawa \& Saito}]{Tatebayashi2006}
+Tatebayashi K, Yamamoto K, Tanaka K, Tomida T, Maruoka T, Kasukawa E, Saito H
+  (2006) {Adaptor functions of Cdc42, Ste50, and Sho1 in the yeast
+  osmoregulatory HOG MAPK pathway.} {\it The EMBO journal\/} {\bf 25}: 3033--44
+
+\bibitem[{Westfall and Thorner(2006)Westfall \& Thorner}]{Westfall2006}
+Westfall PJ, Thorner J (2006) {Analysis of mitogen-activated protein kinase
+  signaling specificity in response to hyperosmotic stress: use of an
+  analog-sensitive HOG1 allele.} {\it Eukaryotic cell\/} {\bf 5}: 1215--28
+
+\bibitem[{Wu {\it et~al\/}(2006)Wu, Jansen, Zhang, Thomas \& Whiteway}]{Wu2006}
+Wu C, Jansen G, Zhang J, Thomas DY, Whiteway M (2006) {Adaptor protein Ste50p
+  links the Ste11p MEKK to the HOG pathway through plasma membrane
+  association.} {\it Genes  development\/} {\bf 20}: 734--746
+
+\end{thebibliography}

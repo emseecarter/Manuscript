@@ -1,0 +1,206 @@
+%% LyX 1.6.5 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage[letterpaper]{geometry}
+\geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+\usepackage{amstext}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[authoryear]{natbib}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\newcommand{\lyxaddress}[1]{
+\par {\raggedright #1
+\vspace{1.4em}
+\noindent\par}
+}
+\newenvironment{lyxlist}[1]
+{\begin{list}{}
+{\settowidth{\labelwidth}{#1}
+ \setlength{\leftmargin}{\labelwidth}
+ \addtolength{\leftmargin}{\labelsep}
+ \renewcommand{\makelabel}[1]{##1\hfil}}}
+{\end{list}}
+
+\makeatother
+
+\usepackage{babel}
+
+\begin{document}
+
+\title{Temporal separation of counter-acting feedback loops leads
+to robust hyper-osmotic stress adaptation in Saccharomyces Cerevisiae}
+
+\author{Patrick C. McCarter$^{\text{}1,2}$, Lior Vered$^{\text{}2,3}$, Matthew K. Martz$^{\text{}4}$,\protect\\
+Beverly E. Errede$^{\text{}5}$, Henrik G. Dohlman$^{\text{}4}$,Timothy C. Elston$^{\text{}1,2,4*}$}
+
+\maketitle
+
+\lyxaddress{1. Curriculum in Bioinformatics and Computational Biology\\
+2. Molecular and Cellular Biophysics\\
+3. The Chemistry Department\\
+4. The Department of Pharmacology\\
+5. The Department of Biochemistry and Biophysics}
+
+\lyxaddress{{*} Corresponding Author: Timothy C. Elston, timothy\char`_elston@med.unc.edu}
+\begin{lyxlist}{00.00.0000}
+\item [{Subject~categories:}] Signal Transduction, Computational Biology, Live-Cell Microscopy
+\item [{Keywords:}] negative feedback, positive feedback, microfluidics
+\item [{Running~Title:}] EMBO/MSB latex template
+\item [{character~count~(including~spaces):}] ?
+\end{lyxlist}
+\newpage{}
+
+\section*{Abstract}
+
+\paragraph*{This should be a single paragraph not exceeding 175 words. The Abstract
+should be comprehensible to readers before they have read the paper,
+and abbreviations should be avoided. Reference citations within the
+abstract are not permitted.}
+
+\newpage{}
+
+%The Introduction should be succinct and provide only the necessary
+%background information, rather than a comprehensive review of the
+%specific field. It should not contain subheadings.
+\section*{Introduction}
+% Remember, you chose this project because pathway dysregulation leads to disease
+% In particular, too much inflammation response leads to fibrosis and sarcoidosis (Hog1 --> p38)
+% Here is a system with regulated activation, duration, and deactivation.
+% However system dynamics are self-contained.
+% Give me three-five solid paragraphs motivating this study in that context.
+
+%The state of the extracellular environment can be described by its composition, which may include other cells 
+%and microorganisms, ions, metabolites, salts, and molecules such as drugs or hormones.
+%Sensory proteins convert state changes into signaling information that is passed to intracellular signal transduction pathways that coordinate the appropriate cell response. 
+
+Start with computational biology and then introduce the biology.
+
+Many cellular signaling processes are predicated on the ability of the cell to establish and maintain multiple homeostases with the extracellular environment. Cells monitor the extracellular environment and utilize biochemical signal transduction pathways to actively respond to broken homestases. Changes in the composition of the extracellular environment exert stress on cells by causing deviations from established homeostases.
+
+Changes in the composition of the extracellular environment exert stress on cells by causing deviations from established homeostases.
+In eukaryotes, many of the  are often coupled to Mitogen-Activated Protein Kinases (MAPK) cascades, which organize three-kinase phosphorylation relay systems to transmit extracellular signaling information to the cell nucleus through a series of dual phosphorylation events. MAPK cascade signaling begins with the dual phosphorylation of a MAPK Kinase Kinase (MAP3K). Once phosphorylated, the MAP3K phosphorylates a MAP2K, which in turn phosphorylates a MAPK. The phosphorylated MAPK coordinates the cells stimulus response by phosphorylating proteins and transcription factors that initiate, maintain, and conclude the designated response program.\\
+
+Cells rely on cyto-protection programs to survive exposure to extracellular stressors. In eukaryotes, many of these cyto-protection programs are controlled by Stress-Activated Protein Kinases (SAPKs).
+
+Dynamic inputs leads to better pathway characterization.
+
+%MAPK phosphorylation may be gradual or rapid.
+ %MAPK phosphorylation may be transient or adaptive.
+%MAPK phosphorylation dynamics can be encoded via feedback phosphorylation.
+
+\subsection{Two Inputs to Hog1}
+Hyper-osmotic stress activates the Sho1 and Sln1 trans-membrane osmo-sensors \citep{Ota1993,Brewster1993,Maeda1994}. Each osmo-sensor transduces hyper-osmotic stress through a Mitogen-Activated Protein Kinase (MAPK) cascade to Hog1, a Stress-Activated Protein Kinase (MAPK/SAPK) (Figure 1A). The Sln1 branch is controlled by Sln1, an auto-phosphorylated histidine-kinase that completes a phospho-transfer relay via Ypd1 to Ssk1 during osmotic homeostasis \citep{Lu2003}. Sln1 auto-phosphorylation is inhibited under hyper-osmotic conditions resulting in Ssk1 dephosphorylation \citep{Posas1998}. Dephosphorylated Ssk1 facilitates phosphorylation of the functionally redundant MAP3Ks, Ssk2 and Ssk22 (Ssk2/22) \citep{Posas1998}. The phosphorylated MAP3Ks bind and phosphorylate the MAP2K (Pbs2) \citep{Tatebayashi2003}, a scaffold protein that additionally binds and phosphorylates Hog1 (Figure 1A, left branch).
+
+The exact mechanism that leads to Sho1 branch activation is unknown, however several proteins including Hkr1, Msb2, Opy2, Ste20, Ste50, and Sho1 are utilized to transmit hyper-osmotic stress to Hog1 via a separate MAPK cascade (Figure 1A, right branch) \citep{Maeda1995,Orourke1998,Orourke2002,Reiser2000,Wu2006,Tatebayashi2006,Tatebayashi2007}. Sho1 localizes the MAPK cascade at the plasma membrane by binding an SH3 domain in Pbs2 \citep{Posas1997}. The MAP3K (Ste11) binds and phosphorylates Pbs2, which again induces Hog1 phosphorylation.
+
+\subsection{Hog1 phosphorylation is rapid, dose-to-duration encoded, and perfectly adaptive during sustained hyper-osmotic stress}
+Hog1 is phosphorylated on the Threonine 174 and Tyrosine 176 phosphorylation sites during sustained weak, intermediate, and severe hyper-osmotic stress \citep{Bell2003}. Population measures reveal that Hog1 phosphorylation is rapid and reaches maximal levels within two minutes of hyper-osmotic stress. Although the Hog1 phosphorylation rate and amplitude are dose-invariant, the duration of the Hog1 dual phosphorylation is encoded by the hyper-osmotic stress magnitude through a dose-to-duration signaling mechanism. Hog1 phosphorylation is also perfectly adaptive, eventually returning to the non-phosphorylated state during sustained hyper-osmotic stress.
+
+Westfall et al. demonstrated that Hog1 catalytic activity is required for Hog1 dephosphorylation. However the impact of Hog1 catalytic activity on the Hog1 phosphorylation rate was uncharacterized. English et al. utilized Phos-tag western blots to measure the phosphorylation rate of a selectively inhibited Hog1 mutant (hog1AS) during monotonic weak, intermediate, and severe hyper-osmotic stress \citep{Aoki2011,English2015}. Absent catalytic activity, Hog1 gradually (hyperbolically) transitioned from the non-phosphorylated state to the dual phosphorylated state. Additionally, the maximum proportion of dual-phosphorylated Hog1 was dependent on the magnitude of the hyper-osmotic stress. Lastly, and in agreement with previous studies, Hog1 maintained saturable phosphorylation levels throughout the duration of the time course experiments \citep{Westfall2006}. These data collectively demonstrated that Hog1 catalytic activity was necessary to convert a dose-dependent, graded Hog1 phosphorylation rate, into a dose-invariant, fast Hog1 phosphorylation rate.
+
+Moreover these data suggested that rapid Hog1 phosphorylation was encoded by an unidentified and Hog1-mediated feedback signaling mechanism. Rapid MAPK phosphorylation can be encoded by a variety of signaling mechanisms including, but not limited to: zeroth-order mechanisms, cooperativity, translocation, multi-step mechanisms, and positive feedback. However, because rapid Hog1 phosphorylation is contingent upon its catalytic activity, we postulated that rapid Hog1 phosphorylation is generated through an unidentified positive feedback loop.
+
+Hog1 has been shown to phosphorylate upstream HOG pathway components, including the putative osmo-sensor Sho1 and protein scaffold Ste50. Hao et al. demonstrated that precluding feedback phosphorylation of Sho1 (sho1$^{S166A}$) did not affect the Hog1 phosphorylation rate. English et al. demonstrated that precluding feedback phosphorylation on Ste50 (ste50$^{5A}$) also does not affect the Hog1 phosphorylation rate. Moreover, mutating the MAPK phosphorylation sites on these proteins delays, but does not abolish Hog1 dephosphorylation during monotonic hyper-osmotic stress. Thus the Sho1 and Ste50 feedback targets alone are not sufficient to coordinate MAPK phosphorylation.
+
+We sought to identify the architecture of the feedback network responsible for both rapid and maximal Hog1 phosphorylation, and dose-to-duration encoding. We previously employed mathematical modeling to demonstrate that these phenomena could be generated in a simplified MAPK signaling network if both negative and positive feedback affected the signal transducing into and out of the MAP3K. In what follows, we combine mathematical modeling and mathematical model selection to systematically test alternative network architecture hypotheses, and identify plausible feedback networks. Our goal was to identify mathematical models that could produce rapid and full MAPK phosphorylation that also perfectly adapted to monotonic hyper-osmotic stress. We simultaneously required each model to produce graded MAPK phosphorylation that maintained dose-dependent steady state levels when MAPK feedback loops were inactive. We divided our modeling study into two specific aims. First, we sought to identify mathematical models that could recapitulate the observed temporal MAPK phosphorylation profiles when MAPK feedback loops were active, and when feedback loops were inactive. Second, we sought to identify the ``best'' mathematical model to use to predict temporal MAPK phosphorylation dynamics when yeast were subjected to dynamic hyper-osmotic stress conditions.
+
+\section*{Results}
+%In articles, each section should be divided by subheadings and may
+%be combined into one section if appropriate. Citations should be formatted
+%in the Author-Year style using the natbib latex package. A bibtex
+%style file is supplied with this template, and should be used.
+
+We first hypothesized that a simple combination of negative and positive feedback within the core MAPK cascade would be sufficient to simultaneously recapitulate temporal MAPK phosphorylation profiles when feedback loops were active and inactive. However, we lacked sufficient prior evidence that indicated the target(s) of MAPK feedback. Therefore we designed a set of mathematical models that systematically tested combinations of one negative feedback loop and one positive feedback loop localized at each level of the MAPK cascade. We assigned the set of models to be members of the ``M$_{1}$'' model set. In total, the M$_{1}$ model set contained sixteen models ``m$^{1}_{j,k}$'' that simulated iterative combinations of MAPK cascade localized negative and positive feedback. Where the superscript denoted that each model is a member of model set M$_{1}$, and the (j,k) index pair described the location of negative and positive feedback within the MAPK cascade. The simplest M$_{1}$ model, which we refer to as model m$^{1}_{0,0}$, simulated the core model network that lacked both negative and positive feedback loops. We designated m$^{1}_{0,0}$ to be a ``true'' null model, from which we could compare the performance of every other model. We defined an additional subset of models that assumed that only negative or positive feedback existed in the pathway. Models m$^{1}_{(0,1)}$, m$^{1}_{(0,2)}$, and m$^{1}_{(0,3)}$ assumed that only negative feedback existed in the pathway, while models m$^{1}_{(1,0)}$, m$^{1}_{(2,0)}$, and m$^{1}_{(3,0)}$ assumed that only positive feedback existed in the pathway. Lastly we derived nine models that featured unique combinations of negative and positive feedback localized in the MAPK cascade: m$^{1}_{(1,1)}$, m$^{1}_{(1,2)}$, m$^{1}_{(1,3)}$, m$^{1}_{(2,1)}$, m$^{1}_{(2,2)}$, m$^{1}_{(2,3)}$, m$^{1}_{(1,3)}$, m$^{1}_{(2,3)}$, m$^{1}_{(3,3)}$. We defined MAPK cascade feedback such that positive feedback accelerated the activation rate of the specified component at a rate directly proportional to the amount of activated MAPK (MAPK*). Similarly negative feedback accelerated the deactivation rate of the specified component at a rate directly proportional to the amount of activated X (X*).
+
+\begin{equation}
+\label{eq1}
+\frac{d[MAP3K^{*}]}{dt}  = \frac{k_{1}s(t)}{(1+\frac{X^{*}}{\beta_{s}})}
+\frac{(MAP3K_{Total}-MAP3K^{*})}{K_{1M}+(MAP3K_{Total}-MAP3K^{*})} - \frac{k_{2}MAP3K^{*}}{K_{2M}+MAP3K^{*}}
+\end{equation}
+
+\begin{equation}
+\label{eq2}
+\frac{d[MAP2K^{*}]}{dt}  = \frac{k_{3}MAP3K^{*}(MAP2K_{Total}-MAP2K^{*})}{K_{3M}+MAP2K_{Total}-MAP2K^{*}} - \frac{k_{4}MAP2K^{*}}{K_{4M}+MAP2K^{*}}
+\end{equation}
+
+\begin{equation}
+\label{eq3}
+\frac{d[MAPK^{*}]}{dt}  = \frac{k_{5}MAP2K^{*}(MAPK_{Total}-MAPK^{*})}{K_{5M}+MAPK_{Total}-MAPK^{*}} - \frac{k_{6}MAPK^{*}}{K_{6M}+MAPK^{*}}
+\end{equation}
+
+\begin{equation}
+\label{eq4}
+\frac{d[X^{*}]}{dt}  = \frac{k_{7}MAPK^{*}(X_{Total}-X^{*})}{K_{7M}+(X_{Total}-X^{*})} - \frac{k_{8}X^{*}}{K_{8M}+X^{*}}
+\end{equation}
+
+%Results and Discussion sections should be combined in the Report format. 
+\section*{Results}
+
+\section*{Discussion}
+
+\section*{Materials and methods}
+
+\subsection{STRAIN GENOTYPE AND CELL GROWTH CONDITIONS}
+All live-cell fluorescence microscopy experiments were conducted with S. cerevisiae (yeast) strain BY4741-207 in which the loci encoding Hog1 and Nrd1 are replaced with Hog1-GFP-HIS3MX6 and Nrd1-mCherry-hphNT1, respectively1. \(MATa, his3\Delta1, leu2\Delta0, met15\Delta0, ura3\Delta0, HOG1-GFP-HIS3MX6, NRD1-mCherry-hphNT1\). Cells were grown overnight in liquid synthetic complete medium (SCM), and then diluted to $5.0*10^5 cells/ml$. Cells were then allowed to complete two cell divisions so that the loading cell density lied between $2.0*10^6 cells/ml$ and $3.0*10^6 cells/ml$.\\
+
+\subsection{LIVE-CELL IMAGING AND MICROFLUIDICS}
+All images were acquired using a Nikon Eclipse (Ti-E Eclipse) Inverted Microscope with fluorescence excitation provided by a X-Cite XLED1 LED light source. The GFP (488-nm) and mCherry (594-nm) fluorescence channels were imaged using 150ms of exposure time at one-minute intervals. Differential Inference Contrast (DIC) and DAPI (461-nm) images were acquired using 20ms of exposure time at one-minute intervals. Live-cell imaging experiments were conducted in a previously described microfluidic device. The microfluidic device is mounted on a Prior automatic stage controlled using MetaMorph software (Molecular Devices, Sunnyvale, CA).\\
+
+\subsection{AUTOMATED DYNAMIC MEDIA CONDITIONS}
+Media flow into the chamber is gravity controlled and determined by the height of four coupled 5 mL input syringes. The four coupled syringes were paired such that there was a pair of syringes with SCM media and a pair of syringes with SCM + KCl. A Dial-A-Wave (GradStudent DAW v3) programmable robotic system controlled the height of each syringe pair such that the SCM + KCl media flowed into the microfluidic chamber in a programmable fashion. Flow of SCM + KCl is monitored with the addition of Cascade Blue dye to one pair of inputs.\\
+
+\subsection{IMAGE ANALYSIS}
+Image registration was performed using ImageJ (National Institute of Health, Bethesda, MD). Image analysis was performed using Wolfram Mathematica v 10.3. Cell and nuclear boundaries were initially identified from DIC and mCherry images, which were segmented using a locally adaptive binarization scheme (LocalAdaptiveBinarize, Mathematica v10.0) coupled with a minimum size constraint. Initially segmented cell boundaries and nuclear regions were then manually refined to maximize the prevalence of cells and nuclei across all time points.\\
+
+Cell areas were computed for each cell at each time point by counting the number of pixels interior to the cell boundary. Hog1-GFP intensities for each cell and cell nucleus.
+
+
+%This section should contain sufficient detail so that all experimental
+%procedures can be repeated by others, in conjunction with cited references.
+%Authors should also provide clear and complete descriptions of the
+%metrics applied for quality assessment and validation of their datasets
+%and the computational tools used for data analysis. Molecular Systems
+%Biology encourages detailed descriptions of methodology or additional
+%materials to be included as Supplementary information. This information
+%should, however, not be of immediate importance for the understanding
+%of the manuscript.
+
+\section*{Acknowledgements}
+The author acknowledges 
+
+\section*{Author Contributions}
+Patrick C. McCarter developed, simulated, and analyzed all mathematical models; as well as designed, executed, and analyzed all live-cell microscopy experiments. Lior Vered contributed to the execution and analysis of live-cell microscopy experiments. Matthew K. Martz contributed to the execution and analysis of live-cell microscopy experiments, as well as statistical model analysis.
+
+\section*{Figure Legends}
+
+%Please supply your Figure images and Tables separately through the
+%journal's article submission system, but please include the figure
+%legends here, in the main text file.
+
+\paragraph*{Figure~1}
+Sustained hyper-osmolarity leads to Hog1 phosphorylation and stress adaptation.\\
+(A) Schematic of the yeast HOG pathway. Phosphorylated signaling proteins are identified by *. Signal propagates in the direction of black solid arrows. Gray double-sided arrows indicate scaffold interactions in the Sln1 branch. Blue double-sided arrows indicate scaffold interactions in the Sho1 branch. Red t-arrow indicates Hog1 dependent stress adaptation modeled as signal inhibition. (B) Cartoon representation of the proportion of dual phosphorylated MAPK (y-axis) in wild type (left) and analog sensitive (right) yeast is depicted as functions of dose (see legend) and time (x-axis). 
+
+\paragraph*{Figure~2}
+Successful models contain positive feedback, delayed negative feedback, and signal inhibition.\\
+Description. 
+
+\paragraph*{Figure~3}
+
+\paragraph*{Figure~4}
+
+\paragraph*{Figure~5}
+
+\paragraph*{Figure~6}
+
+\paragraph*{Figure~7}
+
+
+\bibliographystyle{msb}
+\bibliography{McCarter_Manuscript_1}
+
+\end{document}
